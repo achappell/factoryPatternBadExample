@@ -6,8 +6,20 @@
 //  Copyright (c) 2015 Bottle Rocket Apps. All rights reserved.
 //
 
-#import "MyAwesomeViewFactory.h"
+#import "ViewFactory.h"
 
-@implementation MyAwesomeViewFactory
+@implementation ViewFactory
+
++ (MyAwesomeView *)awesomeView
+{
+    MyAwesomeView *view = [[MyAwesomeView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    return view;
+}
+
++ (MyCrappyView *)crappyView
+{
+    MyCrappyView *view = [[MyCrappyView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    return view;
+}
 
 @end

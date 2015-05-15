@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MyAwesomeView.h"
+#import "MyCrappyView.h"
 
-@interface MyAwesomeViewFactory : NSObject
+@interface ViewFactory : NSObject
+
++ (MyAwesomeView *)awesomeView;
++ (MyCrappyView *)crappyView;
 
 @end

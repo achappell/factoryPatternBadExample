@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyAwesomeView.h"
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) UIView *myView;
+@property (nonatomic, strong) UIView *myOtherView;
 
 @end
 

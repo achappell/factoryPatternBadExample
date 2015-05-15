@@ -14,6 +14,9 @@
 		C84CDEE01B06314400C57C9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84CDEDF1B06314400C57C9E /* Images.xcassets */; };
 		C84CDEE31B06314400C57C9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C84CDEE11B06314400C57C9E /* LaunchScreen.xib */; };
 		C84CDEEF1B06314400C57C9E /* BadFactoryPatternExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C84CDEEE1B06314400C57C9E /* BadFactoryPatternExampleTests.m */; };
+		C84CDEFA1B0633FB00C57C9E /* MyAwesomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C84CDEF91B0633FB00C57C9E /* MyAwesomeView.m */; };
+		C84CDEFD1B06345D00C57C9E /* ViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C84CDEFC1B06345D00C57C9E /* ViewFactory.m */; };
+		C84CDF001B06357700C57C9E /* MyCrappyView.m in Sources */ = {isa = PBXBuildFile; fileRef = C84CDEFF1B06357700C57C9E /* MyCrappyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		C84CDEE81B06314400C57C9E /* BadFactoryPatternExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadFactoryPatternExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C84CDEED1B06314400C57C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C84CDEEE1B06314400C57C9E /* BadFactoryPatternExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadFactoryPatternExampleTests.m; sourceTree = "<group>"; };
+		C84CDEF81B0633FB00C57C9E /* MyAwesomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAwesomeView.h; sourceTree = "<group>"; };
+		C84CDEF91B0633FB00C57C9E /* MyAwesomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAwesomeView.m; sourceTree = "<group>"; };
+		C84CDEFB1B06345D00C57C9E /* ViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewFactory.h; sourceTree = "<group>"; };
+		C84CDEFC1B06345D00C57C9E /* ViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFactory.m; sourceTree = "<group>"; };
+		C84CDEFE1B06357700C57C9E /* MyCrappyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCrappyView.h; sourceTree = "<group>"; };
+		C84CDEFF1B06357700C57C9E /* MyCrappyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCrappyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +98,12 @@
 				C84CDEDF1B06314400C57C9E /* Images.xcassets */,
 				C84CDEE11B06314400C57C9E /* LaunchScreen.xib */,
 				C84CDED21B06314400C57C9E /* Supporting Files */,
+				C84CDEF81B0633FB00C57C9E /* MyAwesomeView.h */,
+				C84CDEF91B0633FB00C57C9E /* MyAwesomeView.m */,
+				C84CDEFB1B06345D00C57C9E /* ViewFactory.h */,
+				C84CDEFC1B06345D00C57C9E /* ViewFactory.m */,
+				C84CDEFE1B06357700C57C9E /* MyCrappyView.h */,
+				C84CDEFF1B06357700C57C9E /* MyCrappyView.m */,
 			);
 			path = BadFactoryPatternExample;
 			sourceTree = "<group>";
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C84CDEFA1B0633FB00C57C9E /* MyAwesomeView.m in Sources */,
+				C84CDF001B06357700C57C9E /* MyCrappyView.m in Sources */,
 				C84CDEDB1B06314400C57C9E /* ViewController.m in Sources */,
 				C84CDED81B06314400C57C9E /* AppDelegate.m in Sources */,
 				C84CDED51B06314400C57C9E /* main.m in Sources */,
+				C84CDEFD1B06345D00C57C9E /* ViewFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
