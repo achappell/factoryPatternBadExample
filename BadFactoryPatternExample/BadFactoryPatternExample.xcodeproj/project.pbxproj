@@ -49,6 +49,7 @@
 		C84CDEFC1B06345D00C57C9E /* ViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewFactory.m; sourceTree = "<group>"; };
 		C84CDEFE1B06357700C57C9E /* MyCrappyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCrappyView.h; sourceTree = "<group>"; };
 		C84CDEFF1B06357700C57C9E /* MyCrappyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCrappyView.m; sourceTree = "<group>"; };
+		C84CDF011B0A371800C57C9E /* LabelableViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelableViewProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 				C84CDEFC1B06345D00C57C9E /* ViewFactory.m */,
 				C84CDEFE1B06357700C57C9E /* MyCrappyView.h */,
 				C84CDEFF1B06357700C57C9E /* MyCrappyView.m */,
+				C84CDF011B0A371800C57C9E /* LabelableViewProtocol.h */,
 			);
 			path = BadFactoryPatternExample;
 			sourceTree = "<group>";
@@ -144,6 +146,7 @@
 				C84CDECB1B06314400C57C9E /* Sources */,
 				C84CDECC1B06314400C57C9E /* Frameworks */,
 				C84CDECD1B06314400C57C9E /* Resources */,
+				1B54DB9162C010D907EB8306 /* Find unused imports */,
 			);
 			buildRules = (
 			);
@@ -228,6 +231,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B54DB9162C010D907EB8306 /* Find unused imports */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Find unused imports";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"/Users/amanda.chappell/Library/Application Support/Developer/Shared/Xcode/Plug-ins/xcfui.xcplugin/Contents/Resources/fui_script.sh\" \"/Users/amanda.chappell/Documents/DevelopmentRepos/factoryPatternBadExample/BadFactoryPatternExample\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C84CDECB1B06314400C57C9E /* Sources */ = {
@@ -436,6 +456,7 @@
 				C84CDEF41B06314400C57C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C84CDEF51B06314400C57C9E /* Build configuration list for PBXNativeTarget "BadFactoryPatternExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +465,7 @@
 				C84CDEF71B06314400C57C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

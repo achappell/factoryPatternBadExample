@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LabelableViewProtocol.h"
 
-@interface MyAwesomeView : UIView
+@interface MyAwesomeView : UIView <LabelableView>
 
 @end

@@ -21,6 +21,9 @@
     
     self.myView = [ViewFactory awesomeView];
     self.myOtherView = [ViewFactory crappyView];
+    
+    [self.myView setText:@"I am more awesome"];
+    [self.myOtherView setText:@"I wish I was more awesome"];
 }
 
 - (void)didReceiveMemoryWarning {

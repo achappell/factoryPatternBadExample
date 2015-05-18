@@ -11,8 +11,8 @@
 
 @interface ViewController : UIViewController
 
-@property (nonatomic, strong) UIView *myView;
-@property (nonatomic, strong) UIView *myOtherView;
+@property (nonatomic, strong) UIView<LabelableView> *myView;
+@property (nonatomic, strong) UIView<LabelableView> *myOtherView;
 
 @end
 

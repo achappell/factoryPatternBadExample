@@ -18,4 +18,9 @@
 }
 */
 
+- (void)setText:(NSString *)text
+{
+    
+}
+
 @end

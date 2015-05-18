@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LabelableViewProtocol.h"
 
-@interface MyCrappyView : UIView
+@interface MyCrappyView : UIView <LabelableView>
 
 @end
